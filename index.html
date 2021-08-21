@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>vOS 1</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>vOS 1</title><style>@keyframes getin{
+      from{bottom: -100%;}
+      to{bottom: 10%;}
+    }</style>
   </head>
   <body style="background-image: url(bg.jpeg);
     background-size: cover;
     overflow: hidden;
     height: 100vh;
+               
                margin-left: auto;
-    justify-content: center;">
-    <div style="height: 80%;bottom: 10%;position: fixed;width: 40%;left: 30%;right: 30%;background-color:white;text-align:center;border-radius:20px;font-family: segoe ui;"><h1>vOS - Welcome</h1></div>
+    justify-content: center;
+               ">
+    <div style="animation: getin 1s ease;height: 80%;position: fixed;width: 40%;left: 30%;right: 30%;background-color:white;text-align:center;border-radius:20px;font-family: segoe ui;"><h1>vOS - Welcome</h1></div>
   </body>
 </html>
